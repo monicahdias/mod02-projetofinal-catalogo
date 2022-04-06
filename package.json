@@ -1,0 +1,29 @@
+{
+  "name": "mod02-projetofinal-catalogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicahdias/mod02-projetofinal-catalogo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicahdias/mod02-projetofinal-catalogo/issues"
+  },
+  "homepage": "https://github.com/monicahdias/mod02-projetofinal-catalogo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}

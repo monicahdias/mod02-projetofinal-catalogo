@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@media only screen and(max-width: 900px) {
+    .containe_form {
+        flex-wrap: wrap !important;
+        flex-direction: column;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containe_form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: Ubuntu;
+    color: #403D3A;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.containe_form_editar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-family: Ubuntu;
+    color: white;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario div input {
+    margin: 8px;
+    width: 180px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.container_btn {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container_btn .btn {
+    border-radius: 5px;
+    border: none;
+    font-family: Ubuntu;
+    padding: 8px;
+    margin-top: 15px;
+    background-color: #2da386;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #2da386;
+}

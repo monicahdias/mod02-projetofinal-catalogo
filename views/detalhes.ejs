@@ -1,0 +1,24 @@
+
+ <main>
+    <section> 
+        <div class="card card__detalhes mx-auto" style="width: 35rem;">
+            <button type="button" class="btn-close btn-close-black" aria-label="Close"></button>
+            <img src="<%= lugar.imagem %>" class="card-img-top" alt="imagem-viagem">
+            <div class="card-body">
+              <h5 class="card-title"><%= lugar.lugar %></h5>
+              <p class="card-text"><%= lugar.frase %></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Descrição:</strong><%= lugar.descricao %></li>
+              <li class="list-group-item"><strong>Estrutura:</strong><%= lugar.estrutura %></li>
+              <li class="list-group-item"><strong>Atividades:</strong><%= lugar.atividades %></li>
+            </ul>
+            <div class="card-body">
+              <a href="/" class="card-link">Voltar</a>
+              <a href="/editar/<%= lugar.id %>" class="card-link">Editar</a>
+              <a href="/detalhes/<%= lugar.id %>" class="card-link">Apagar</a>
+            </div>
+          </div>
+  </section>
+</main>
+ 

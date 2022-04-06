@@ -1,0 +1,93 @@
+@import 'cadastrar.css';
+@import 'sobre.css';
+@import 'detalhes.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.bg-body {
+    background: #e4e6e3;
+}
+
+main {
+    background: rgb(238, 234, 234);
+}
+
+
+.img-carousel {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 0 .8rem 0;
+    font-family: Futura Md Bt;
+    background-color: #2da386;
+    color: white;
+    margin-bottom: 0rem;
+}
+
+section#message {
+    padding: 1.5rem;
+    background-color: rgb(197, 255, 214);
+    color: #004d04;
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Karla;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span#close {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+span#close:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.5);
+}
+
+.navbar {
+    /* background-color: #6399cc; */
+    background: #2da386;
+}
+
+.offcanvas-body {
+    background: #2da386;
+}
+
+.card-link {
+
+    text-decoration: none;
+
+}
+
+.card-link:hover {
+    width: 20%;
+    height: 20%;
+}
